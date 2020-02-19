@@ -1,0 +1,20 @@
+{
+  "name": "omdb_backend",
+  "version": "1.0.0",
+  "description": "A backend to get around CORS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "omdb"
+  ],
+  "author": "Niall O'Callaghan",
+  "license": "UNLICENCED",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4"
+  }
+}
